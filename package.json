@@ -4,10 +4,9 @@
   "description": "Track stats for Apex (at first)",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
     "server": "nodemon server",
     "client": "npm run serve --prefix client",
-    "front-build": "npm run build --prefix client",
-    "start": "npm run front-build && npm run server",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
